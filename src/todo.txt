@@ -1,0 +1,23 @@
+1:
+    Browser Grundkonzepte fertigbekommen
+
+2:
+    Eigene Extensions erstellen können
+
+3:
+    Browser selbst modifizieren können
+
+4:
+    Developern ermöglichen sich auf den Browser zu beziehen
+
+5:
+    Settings
+
+6:
+    In den Developer Settings die Möglichkeit bieten, Files am eigenen Computer zu bearbeiten (NUR MIT EINVERSTÄNDNIS)
+
+7:
+    Eingebauter Adblocker
+
+8:
+    Mobile Application

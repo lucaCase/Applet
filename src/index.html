@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="./styles.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tauri App</title>
+        <script type="module" src="./main.js" defer></script>
+    </head>
+
+    <body>
+        <div id="top-bar">
+            <nav id="navigation">
+                <img src="./icons/minimize.svg" id="minimize-button" class="nav-option" alt="Minimize">
+                <img src="./icons/maximize.svg" id="maximize-button" class="nav-option" alt="Maximize">
+                <img src="./icons/close.svg" id="close-button" class="nav-option" alt="Close">
+            </nav>
+        </div>
+        <div id="options">
+            <div id="static-options" class="option">
+                <img src="./icons/back.svg" id="back" class="nav-option static" alt="Back">
+                <img src="./icons/reload.svg" id="reload" class="nav-option static" alt="Reload">
+                <img src="./icons/home.svg" id="home" class="nav-option static" alt="Home">
+                <div class="right-border"></div>
+            </div>
+            <div id="dynamic-options" class="option">
+                <input type="url" id="url-input" placeholder="Enter search request here">
+                <img src="./icons/extension.svg" id="extension" class="nav-option static" alt="Extension">
+            </div>
+        </div>
+        <div id="content" style="width: 100vw; height: 100vh;">
+
+        </div>
+    </body>
+</html>
